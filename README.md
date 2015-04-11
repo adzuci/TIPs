@@ -18,7 +18,7 @@ Each TIP must have a champion -- someone who follows the ideas and/or formats
 described in their TIP. Generally, what you're proposing within your TIP is
 something you already live and breathe by.
 
-To submit a TIP, please follow the instructions within [TIP 2](TODO)
+To submit a TIP, please follow the instructions within [TIP 2](https://github.com/gadventures/TIPs/blob/tip-2/tips/tip-2-submitting-tips.md)
 
 ## TIP Czars
 
