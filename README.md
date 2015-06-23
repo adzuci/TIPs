@@ -6,7 +6,7 @@ G Adventures.
 
 Proposals can focus on the culture, technology, or processes within our
 department. Anyone within our organization can make a proposal, and anyone can
-contribute to the ideas and eventual formation of it. 
+contribute to the ideas and eventual formation of it.
 
 ## Submitting a TIP
 
@@ -27,8 +27,8 @@ refine, and upon agreement, finalize and merge the proposal into the TIP master.
 The current czars are:
 
 * Adam McKerlie
-* Adam Albrechtas
 * Bartek Ciszkowski
+* Rafik Draoui
 * Craig Nagy
 * Danielle Jessamy
 * Gino Lopez
