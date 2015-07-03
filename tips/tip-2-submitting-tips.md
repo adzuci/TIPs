@@ -11,11 +11,11 @@ The purpose of this TIP (Technology Improvement Proposal) is to provide the gene
 
 ## TIP Life Cycle
 
-The TIP process begins with an idea to improve the Technology department. This can include topics such as style guides, culture, interview process or anything that a memeber of the Technology team feels should be included.
+The TIP process begins with an idea to improve the Technology department. This can include topics such as style guides, culture, interview process or anything that a member of the Technology team feels should be included.
 
 Once you've submitted your idea (via Pull Request) you can request discussion via tagging the CZARs and/or posting a link in Slack.
 
-After discussion from the department and any changes that need to be made are completed one of the CZARs will sign off on the TIP and merge it into master. This completes the TIP.
+After discussion from the department and any changes that need to be made are completed, one of the CZARs will sign off on the TIP and merge it into master. This completes the TIP.
 
 ## General structure
 
@@ -42,4 +42,4 @@ TIPs can include as many sections as needed to convey your point. They should be
 
 ## References and Notes
 
-If you need to incude any references, notes or URLs you can do so through this final section.
+If you need to include any references, notes or URLs, you can do so through this final section.
