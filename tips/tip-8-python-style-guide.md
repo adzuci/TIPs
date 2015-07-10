@@ -46,7 +46,11 @@ Pathogen, and is easy to configure. Once installed, add these to your `.vimrc`
 to be setup for Python editing!
 
     let g:syntastic_python_checkers=['flake8']
-    let g:syntastic_python_flake8_args="--ignore=E501,E121" 
+    let g:syntastic_python_flake8_args="--ignore=E501,E121"
+
+### Sublime Text
+
+For Sublime Text 2 or 3 the recommended linter is [Sublime Linter 3](http://www.sublimelinter.com/en/latest/). Sublime Linter 3 can be installed via Sublime's package manager or by cloning the [github repository](https://github.com/SublimeLinter/SublimeLinter3) into the package directory.
 
 ## Updating legacy code to PEP 8
 
@@ -54,7 +58,7 @@ Any code you touch should be updated to PEP 8. Although this is rarer today, it
 ensures we keep our code base clean for the future.
 
 When you are updating legacy code, it is best to commit all PEP 8 changes in a
-separate commit. 
+separate commit.
 
 For example, if you are fixing a bug, first, you'll commit the bug fix. Then,
 you will have a second commit containing your PEP 8 changes.
