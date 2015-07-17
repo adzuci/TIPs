@@ -3,7 +3,7 @@
 * **TIP**: 8
 * **Title**:  Python Style Guide
 * **Author**: Bartek Ciszkowski
-* **Status**: Draft
+* **Status**: Accepted and Merged
 * **Created**: July 9th, 2015
 * **Updates**: N/A
 
