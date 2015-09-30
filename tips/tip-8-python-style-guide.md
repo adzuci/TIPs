@@ -26,6 +26,14 @@ the better.
 * **E121**: Wrong hanging indentation. This has historically felt very finnicky
     in editors and unnecessarly loud.
 
+## Deprecation Warnings, Be Loud!
+
+When developing, we should be well aware of what is soon to be deprecated. This helps all developers write code that won't become stale in the next version of a project, and brings to light important issues around security.
+
+The simplest way to follow this, is to run Python with loud warnings. Just add the following argument to each shell session:
+
+    python -Wall
+   
 ## Integration with your editor
 
 In this guide, we'll focus on two editors. Atom, and Vim. Please feel free to
