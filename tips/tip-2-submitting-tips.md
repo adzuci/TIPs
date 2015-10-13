@@ -13,9 +13,9 @@ The purpose of this TIP (Technology Improvement Proposal) is to provide the gene
 
 The TIP process begins with an idea to improve the Technology department. This can include topics such as style guides, culture, interview process or anything that a member of the Technology team feels should be included.
 
-Once you've submitted your idea (via Pull Request) you can request discussion via tagging the CZARs and/or posting a link in Slack.
-
-After discussion from the department and any changes that need to be made are completed, one of the CZARs will sign off on the TIP and merge it into master. This completes the TIP.
+Once you've submitted your idea (via Pull Request) you can request discussion via tagging the technology group and/or posting a link in Slack.
+y
+After discussion from the department and any changes that need to be made are completed, you can merge it into master. This completes the TIP.
 
 ## General structure
 
