@@ -3,7 +3,7 @@
 * **TIP**: 1
 * **Title**:  Technology Core Values
 * **Author**: Michelle Walker, Bartek Ciszkowski, Adam McKerlie
-* **Status**: Initial Proposal
+* **Status**: Proposed 
 * **Created**: October 9, 2015
 * **Updates**: N/A
 

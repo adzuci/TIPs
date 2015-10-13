@@ -3,7 +3,7 @@
 * **TIP**: 2
 * **Title**:  Submitting TIPs
 * **Author**: Adam McKerlie
-* **Status**: Draft
+* **Status**: Accepted
 * **Created**: July 3rd, 2015
 * **Updates**:
 
