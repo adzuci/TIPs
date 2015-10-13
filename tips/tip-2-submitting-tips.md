@@ -28,7 +28,7 @@ Every TIP should include basic meta information. This information can include:
 * *TIP: < TIP number >*
 * *Title: < TIP title >*
 * *Author: < Author(s) >*
-* *Status: < Draft | Active | Accepted | Deferred >*
+* *Status: < Draft | Proposed | Active | Accepted | Deferred >*
 * *Created: < Date >*
 * *Updates: < Modified Dates in chronological order >*
 
