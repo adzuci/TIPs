@@ -2,7 +2,7 @@
 
 * **TIP**: 6
 * **Title**: Go Style Guide
-* **Author**: Bartek Ciszkowski
+* **Author**: Bartek Ciszkowski, Jakub Labath
 * **Status**: Draft
 * **Created**: October 27, 2015
 * **Updates**:
