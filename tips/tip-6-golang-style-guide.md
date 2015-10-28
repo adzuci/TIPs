@@ -27,7 +27,7 @@ The experimental vendor feature is described in this [blog post](https://medium.
 
 For reference, here's what a development environment looks like:
 
-    jakub@fedor ~ $ cat ~/GO_ENV 
+    cat ~/GO_ENV 
     export GOROOT=$HOME/go
     export GOPATH=$HOME/GO_LIBS
     export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
