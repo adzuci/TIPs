@@ -20,6 +20,8 @@ Please be wary of how notifications can affect people, especially outside of wor
 Do not:
 * @channel, @individual person or DM an individual before 8am and after 6pm M-F
 * @channel, @individual person or DM an individual during the weekend
+* @channel, @individual person or DM an individual during the holidays
+* @individual person or DM while an individual is on vacation
 
 ## Emergencies
 
