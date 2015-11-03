@@ -40,4 +40,4 @@ In the rare occasion that there's an emergency while an employee is on vacation,
 
 Slackbot has a wonderful feature that allows it to auto-respond to specified sayings. Slackbot will respond whenever the specified saying occurs, whether it's in a channel or DM.
 
-Slackbot respones shouldn't be created for very common words, names, usernames or phrases. If a slackbot response is ocurring to often think about adding `_` before it.
+Ideally, Slackbot responses should be triggered purposefully.  To that end, Slackbot responses shouldn't be created for commononly used words or phrases, names or usernames. If a Slackbot response is occurring too often, consider adding `_` before it to reduce it being triggered accidentally.
