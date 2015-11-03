@@ -33,3 +33,9 @@ Emergencies include but are not limited to:
 * Anything that would affect a passenger when they arrive on a trip or while they are on a trip
 
 In the rare occasion that there's an emergency while an employee is on vacation, any costs associated with the emergency (cell phone, internet, etc...) should be billed to the company.
+
+## Slackbot Responses
+
+Slackbot has a wonderful feature that allows it to auto-respond to specified sayings. Slackbot will respond whenever the specified saying occurs, whether it's in a channel or DM.
+
+Slackbot respones shouldn't be created for very common words, names, usernames or phrases. If a slackbot response is ocurring to often think about adding `_` before it.
