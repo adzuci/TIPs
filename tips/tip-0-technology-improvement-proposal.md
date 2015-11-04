@@ -14,6 +14,7 @@ contribute to the ideas and eventual formation of it.
 * [TIP 1: Core Values](https://github.com/gadventures/TIPs/blob/master/tips/tip-1-core-values.md)
 * [TIP 2: Submitting Tips](https://github.com/gadventures/TIPs/blob/master/tips/tip-2-submitting-tips.md)
 * [TIP 6: Go Guide](https://github.com/gadventures/TIPs/blob/master/tips/tip-6-golang-style-guide.md)
+* [TIP 7: Slack Etiquette](https://github.com/gadventures/TIPs/blob/master/tips/tip-7-slack-etiquette.md)
 * [TIP 8: Python Style Guide](https://github.com/gadventures/TIPs/blob/master/tips/tip-8-python-style-guide.md)
 
 ## Submitting a TIP
