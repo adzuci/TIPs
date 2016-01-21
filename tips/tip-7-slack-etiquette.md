@@ -15,13 +15,9 @@ Follow our second [Core Value](https://github.com/gadventures/TIPs/blob/master/t
 
 ## Notifications
 
-Please be wary of how notifications can affect people, especially outside of work hours. The following are a basic set of guidelines to follow.
+Slack has a wonderful feature built in called Do Not Disturb (DND) that will prevent notifications from pushing to an individual outside of work hours.  By default, we prevent notifications from pushing between the hours of 6pm and 8am, but each person can set their own work hours.  If you do DM someone outside of their work hours, you will receive a prompt that will give you the opportunity to override DND and forward the notification to them - please only do this in case of an Emergency (You can find out what constitutes an Emergency in the next section).
 
-Do not:
-* @channel, @individual person or DM an individual before 8am and after 6pm M-F
-* @channel, @individual person or DM an individual during the weekend
-* @channel, @individual person or DM an individual during the holidays
-* @individual person or DM while an individual is on vacation
+DND has no concept of holidays or vacations, so if you'd prefer to avoid notifications during those times, you'll need to override your personal settings.
 
 ## Emergencies
 
