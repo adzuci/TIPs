@@ -1,11 +1,12 @@
-# TIP 6: Go Style Guide
+# TIP 6: Go Lang
 
 * **TIP**: 6
-* **Title**: Go Style Guide
+* **Title**: Go Lang
 * **Author**: Bartek Ciszkowski, Jakub Labath
 * **Status**: Merged and Approved
 * **Created**: October 27, 2015
-* **Updates**:
+* **Updates**
+    * January 19, 2016 - Added Style Guide on Variables, Package Documentation
 
 Go is increasingly becoming part of daily development at G Adventures, more-so
 in specific teams. This style guide is a work in progress for best-practices,
@@ -62,3 +63,60 @@ For help you can do `:h vim-go`
 
 You can map the various commands, like `:GoImports` to whatever you want in Vim
 using standard Vim mapping techniques.
+
+## Style Guide
+
+Although `go fmt` does much of the work, there are various conventions that we
+should adhere to in order to ensure our code is consistent across projects. This
+makes it easier to jump between projects, teams, and there's less brain drain
+trying to learn someone's own unique convention.
+
+
+#### Naming
+
+Go programmers use `camelCase` when forming names by combining words. Thus, the
+standard library has names like:
+
+    QuoteRuneToASCII
+    parseRequestLine
+
+And one should stay away from `names_like_this`, with the exception of any
+`SYMBOLIC_CONSTANTS`. There is no limit on name length. However, variables that
+have a smaller scope should generally be shorter than variables with a larger
+scope. For example, the index on an iteration should generally be named `i`
+since its scope is minimized to the single loop, where-as a package level
+variable name may better describe the package it's being used in, e.g.
+`FahrenheitToCelcius`.
+
+Any variable or type which should be exported begins with a capital letter. If
+you do not expect the variable to be exported or used outside of your module, it
+should begin with a lower case.
+
+#### Variables
+
+One way to create variables is the `new` function. A variable created with `new`
+is no different from an ordinary local variable whose address is taken, except
+there's no need to create a dummy name. Thus, `new` is only syntactic
+convenience, not a fundamental notion.
+
+The `new` function is relatively rarely used because the most common unnamed
+variables are of `struct` types, for which the `struct` literal syntax is more
+flexible.
+
+Thus, it's not recommended to use it.
+
+#### Package Documentation
+
+The _doc comment_ is a summary of the package immediately preeeding the
+`package` declaration, like so:
+
+    // Package tempconv converts Fahrenheit to Celcius
+    package tempconv
+
+Only one file in each package should have a doc comment in this style. Extensive
+comments are conventionally placed in a file named `doc.go`.
+
+Higher level documentation (install, setup, process) should be within a
+`README.md` or a larger Sphinx-based documentation. That particular style is
+outside of the scope of this document.
+
