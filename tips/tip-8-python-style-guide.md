@@ -50,11 +50,13 @@ rule above.
 
 The recommended linter for Vim is without a doubt,
 [Syntastic](https://github.com/scrooloose/syntastic). Installation works with
-Pathogen, and is easy to configure. Once installed, add these to your `.vimrc`
+Pathogen or Vundle, and is easy to configure. Once installed, add these to your `.vimrc`
 to be setup for Python editing!
 
+    let g:syntastic_check_on_open = 1  " Automatically check when opening and saving files
+    let g:syntastic_check_on_wq = 0    " Recommended: don't check when exiting vim with 'wq'
     let g:syntastic_python_checkers=['flake8']
-    let g:syntastic_python_flake8_args="--ignore=E501,E121"
+    let g:syntastic_python_flake8_post_args="--ignore=E501,E121"
 
 ### Sublime Text
 
