@@ -88,9 +88,41 @@ since its scope is minimized to the single loop, where-as a package level
 variable name may better describe the package it's being used in, e.g.
 `FahrenheitToCelcius`.
 
+When speaking about variable scope, we should not get lazy with variable naming.
+Just because a variable may be thrown away quickly and has a small scope, do not
+use single-character names that are not meaningful, unless in the scope of an
+iteration. A variable that contains a result should always be meaningful.
+
 Any variable or type which should be exported begins with a capital letter. If
 you do not expect the variable to be exported or used outside of your module, it
 should begin with a lower case.
+
+
+#### Functions
+
+Functions with long signatures should be broken down into a new line for each
+argument. This is important when the signature reaches past 80 characters in
+line.
+
+Thus, instead of:
+
+```
+func pipeline(ctx context.Context, inConn, outConn *amqp.Connection, initFn, cacheRefreshFn, routeFn splitFunc, logFn logFunc) (Canceller, error) {
+```
+
+You should write:
+
+```
+func pipeline(
+    ctx context.Context,
+    inConn,
+    outConn *amqp.Connection,
+    initFn,
+    cacheRereshFn,
+    routeFn splitFunc,
+    logFn logFunc,
+) (Canceller, error) {
+```
 
 #### Variables
 
@@ -105,9 +137,11 @@ flexible.
 
 Thus, it's not recommended to use it.
 
-#### Package Documentation
+#### Documentation
 
-The _doc comment_ is a summary of the package immediately preeeding the
+*Package Level*
+
+The _doc comment_ is a summary of the package immediately preceding the
 `package` declaration, like so:
 
     // Package tempconv converts Fahrenheit to Celcius
@@ -119,4 +153,14 @@ comments are conventionally placed in a file named `doc.go`.
 Higher level documentation (install, setup, process) should be within a
 `README.md` or a larger Sphinx-based documentation. That particular style is
 outside of the scope of this document.
+
+*Comments*
+
+Commenting is important, and being clear and consistent with it makes the code
+all the more readable. We suggest:
+
+* Comments should have a space between the starting slashes and the first character (`// Foo` and not `//Foo`)
+* Comments should not be on the same line as code, unless really short.
+* Comments should not exceed 80 characters per line.
+
 
