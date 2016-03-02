@@ -3,9 +3,10 @@
 * **TIP**: 7
 * **Title**:  Slack Etiquette
 * **Author**: Adam McKerlie
-* **Status**: Draft
+* **Status**: Accepted
 * **Created**: November 3rd, 2015
-* **Updates**: N/A
+* **Updates**:
+  * March 2nd, 2016 - Added Distractions
 
 Slack is a fantastic tool for real time group communications. It allows us to organize, plan and communicate with others easily. While Slack is used as a work communication tool it is also used as a social communication tool and because of this we need to be careful of how we use it.
 
@@ -18,6 +19,17 @@ Follow our second [Core Value](https://github.com/gadventures/TIPs/blob/master/t
 Slack has a wonderful feature built in called Do Not Disturb (DND) that will prevent notifications from pushing to an individual outside of work hours.  By default, we prevent notifications from pushing between the hours of 6pm and 8am, but each person can set their own work hours.  If you do DM someone outside of their work hours, you will receive a prompt that will give you the opportunity to override DND and forward the notification to them - please only do this in case of an Emergency (You can find out what constitutes an Emergency in the next section).
 
 DND has no concept of holidays or vacations, so if you'd prefer to avoid notifications during those times, you'll need to override your personal settings.
+
+## Distractions
+
+Slack is a fantastic tool for near real time communications but it can get distracting quickly when you're using it's default settings. By default, Slack sends you notifications for all activity in all channels which is not ideal. You can change these settings by going to https://gadventures.slack.com/account/notifications and setting the various notification settings for Desktop/Mobile as well as specific channels.
+
+### Recommended settings
+* Change Notifications from `All Activity` to `Only Direct Messages & Highlight Words`
+* Mute `#gadventures`. This channel is extremely noisy and having notifications on all activity is pointless.
+
+While Slack is the tool we've chosen to use as our main communication tool it's not a requirement to be on it 100% of the day. It's perfectly fine to set your status as away or to close it entirely when you need to get work done. 
+
 
 ## Emergencies
 
