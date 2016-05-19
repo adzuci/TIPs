@@ -5,8 +5,7 @@
 * **Author**: Bartek Ciszkowski, Jakub Labath
 * **Status**: Merged and Approved
 * **Created**: October 27, 2015
-* **Updates**
-    * January 19, 2016 - Added Style Guide on Variables, Package Documentation
+
 
 Go is increasingly becoming part of daily development at G Adventures, more-so
 in specific teams. This style guide is a work in progress for best-practices,
@@ -14,15 +13,10 @@ editor, and environment setup.
 
 ## Version
 
-The current Go version used by production systems is `1.5`. This version
-introduced experimental vendor support, which is necessary for projects like
-`bundler` to work. You should install this version for any active development or
-support of existing projects.
+The current Go version used by production systems is `1.6`. You should use [ansible-gapi](https://github.com/gadventures/ansible-gapi) to ensure you have the correct version of Go installed on your development machine.
 
 You can download Go from the [official site](https://golang.org/dl/) or use your
 favourite package manager for your operating system.
-
-The experimental vendor feature is described in this [blog post](https://medium.com/@freeformz/go-1-5-s-vendor-experiment-fd3e830f52c3), and it looks like we can expect it to be a core part of Go in the near future.
 
 ## Environment Setup
 
@@ -32,8 +26,6 @@ For reference, here's what a development environment looks like:
     export GOROOT=$HOME/go
     export GOPATH=$HOME/GO_LIBS
     export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
-    # Needed for experimental vendoring in 1.5
-    export GO15VENDOREXPERIMENT=1
     export PS1="(go) $PS1"
 
 These settings can be loaded by adding `. ~/GO_ENV` to your `.bashrc`
@@ -42,7 +34,6 @@ These settings can be loaded by adding `. ~/GO_ENV` to your `.bashrc`
 
 * `GOROOT` is where your Go is installed (It should contain `bin/go`)
 * `GOPATH` is where you download and install libraries when you use `go get`.  Can be any folder on your disk. This is optional but recommended.
-* `GO15VENDOREXPERIMENT` enables Go to look for code in vendor folder when building code. This experimental feature should become solidified in future versions.
 * `PS1` just modifies your bash prompt - It's just a visual clue that tells you you're in a Go code environment.
 
 
