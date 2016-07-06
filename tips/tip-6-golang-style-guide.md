@@ -36,6 +36,15 @@ These settings can be loaded by adding `. ~/GO_ENV` to your `.bashrc`
 * `GOPATH` is where you download and install libraries when you use `go get`.  Can be any folder on your disk. This is optional but recommended.
 * `PS1` just modifies your bash prompt - It's just a visual clue that tells you you're in a Go code environment.
 
+**Git configuration**
+
+When using `go get`, If you're presented with an error like:
+
+    fatal: could not read Username for 'https://github.com': terminal prompts disabled
+    
+Try configuring git to force ssh:
+
+    git config --global url.ssh://git@github.com/.insteadOf https://github.com/
 
 ## Editor Setup
 
