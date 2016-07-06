@@ -25,7 +25,8 @@ For reference, here's what a development environment looks like:
     cat ~/GO_ENV 
     export GOROOT=$HOME/go
     export GOPATH=$HOME/GO_LIBS
-    export PATH=$GOROOT/bin:$GOPATH/bin:$PATH
+    export GOBIN=$GOROOT/bin
+    export PATH=$GOBIN:$GOPATH/bin:$PATH
     export PS1="(go) $PS1"
 
 These settings can be loaded by adding `. ~/GO_ENV` to your `.bashrc`
